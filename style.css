@@ -1,0 +1,115 @@
+body{
+    background-image: url("38030.jpg");
+    background-size: 100% 100%;
+    background-color: rgb(255,227,227);
+    background-blend-mode:soft-light;
+    text-align: center;
+    font-family: "Kindegarten","sans-serif";
+}
+#title{
+    margin-top: 100px;
+    line-height: 10px;
+}
+#subtitle{
+    opacity: 0.7;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+#calenderContainer{
+    display: flex;
+    justify-content: center; 
+}
+#habitTitle{
+    cursor: pointer;
+}
+#habitTitle:hover{
+    text-shadow: 
+        0 0 10px #ff69b4,
+        0 0 20px #ff69b4,
+        0 0 30px #ff1493;
+
+}
+#calenderDiv{
+    background-color: white;
+    border-radius: 10px 10px 20px 20px;
+    margin: auto;
+    align-content: center;
+    text-align: center;
+    width: 400px; 
+    max-width: 500px; 
+}
+#calenderHeader{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 10px 0px 0px;
+    border: 2px solid black;
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: pink;
+    line-height: 0px;
+}
+#calenderContent{
+    padding: 20px;
+    border-radius: 0px 0px 10px 10px;
+    border: 2px solid black;
+}
+#tracker{
+    display: flex;
+    flex-direction: column;
+    gap: 5px; 
+}
+.days-of-week {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ddd;
+}
+
+.day-name {
+    width: 35px;
+    height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #666;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+}
+.days{
+    display: flex;
+    justify-content: center; 
+    gap: 5px; 
+}
+.day{
+    width: 35px; 
+    height: 35px; 
+    margin: 0; 
+    padding: 0; 
+    font-size: 15px;
+    text-align: center;
+    border-radius: 50%; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    cursor: pointer; 
+}
+.day:hover{
+    background-color: #ff69b4; 
+    transform: scale(1.05); 
+}
+#resetBtn{
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: pink;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: "Kindegarten","sans-serif";
+}
+#resetBtn:hover{
+    background-color: #ff69b4;
+}
